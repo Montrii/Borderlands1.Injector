@@ -1,7 +1,6 @@
 # A Borderlands 1 Loader
 
 
-![](https://komarev.com/ghpvc/?username=Montrii)
 [![Github All Releases](https://img.shields.io/github/downloads/Montrii/Borderlands1.Injector/total.svg)]()
 [![Github Forks](https://img.shields.io/github/forks/Montrii/Borderlands1.Injector)]()
 [![Github Stars](https://img.shields.io/github/stars/Montrii/Borderlands1.Injector)]()
