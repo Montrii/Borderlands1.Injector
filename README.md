@@ -16,7 +16,7 @@ Contents
 ========
 
 * [Installation](#installation)
-* [Supported Versions](#supported)
+* [Versions](#versions)
 * [Compiling yourself](#compiling)
 * [Future Plans](#future)
 
@@ -26,13 +26,13 @@ Contents
 
 
 In order to install this `loader`, you will **require** a digital copy of Borderlands 1.   
-([Supported Versions](#supported) for more Information).
+([Versions](#versions) for more Information).
 
 As we won't use a conventional .dll injector, we'll need to replace files within the original Game.  
 After research, i have decided to replace the original `vorbisenc.dll` file with a modified version of it.  
 
 
-> **Warning**
+> **Warning**  
 > **For Devs**: This method only works if you provide all functions the game needs from that .dll.
 
 Now, follow these steps in order to install this `loader` successfully.   
@@ -49,8 +49,10 @@ The game now has a `loader` brought in.
 By default, if there **is not** any `\\scripts` directory within `\\Binaries`, it will auto-create one.
 
 
-### Supported Versions
+### Versions
 ---
+
+Displaying the supported versions of the game to this day.
 
 | Name                           | Supported? |
 |--------------------------------|------------|
