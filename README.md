@@ -1,5 +1,7 @@
 # A Borderlands 1 Loader
 
+
+![](https://komarev.com/ghpvc/?username=Montrii)
 [![Github All Releases](https://img.shields.io/github/downloads/Montrii/Borderlands1.Injector/total.svg)]()
 [![Github Forks](https://img.shields.io/github/forks/Montrii/Borderlands1.Injector)]()
 [![Github Stars](https://img.shields.io/github/stars/Montrii/Borderlands1.Injector)]()
@@ -40,7 +42,7 @@ Now, follow these steps in order to install this `loader` successfully.
 ```bash
 1. Get a compiled version of vorbisenc.dll from this repository.
 2. Navigate to your Borderlands 1 Directory.
-3. Open the "Binaries" folder, where the actual Borderlands.exe lays.
+3. Open the "Binaries" folder, where the actual Borderlands.exe lies.
 4. Replace the original vorbisenc.dll with your compiled one.
 5. Restart your game.
 ```   
