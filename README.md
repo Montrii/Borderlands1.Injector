@@ -10,6 +10,8 @@ This `loader` allows you to bring any form of **.dll** files into the original B
 The goal of this project is to prevent using an usual .dll injector.  
 Using this form of a loader allows a more user-friendly implementation of modifications to the game.
 
+As Borderlands 1 is a *x86* Application, **please** remember all modifications, including this one, need to be *x86* compiled.
+
 Contents
 ========
 
@@ -23,8 +25,8 @@ Contents
 ---
 
 
-In order to install this `loader`, you will **require** a digital copy of Borderlands 1.  
-It does not matter if the game is installed through Epic Games Launcher of Steam. ([Supported Versions](#supported) for more Information).
+In order to install this `loader`, you will **require** a digital copy of Borderlands 1.   
+([Supported Versions](#supported) for more Information).
 
 As we won't use a conventional .dll injector, we'll need to replace files within the original Game.  
 After research, i have decided to replace the original `vorbisenc.dll` file with a modified version of it.  
@@ -45,5 +47,14 @@ Now, follow these steps in order to install this `loader` successfully.
 
 The game now has a `loader` brought in.   
 By default, if there **is not** any `\\scripts` directory within `\\Binaries`, it will auto-create one.
+
+
+### Supported Versions
+---
+
+| Name                           | Supported? |
+|--------------------------------|------------|
+| Borderlands 1 Steam (Now GOTY) | Yes        |
+| Borderlands 1 Enhanced Steam   | Not tested |
 
 
