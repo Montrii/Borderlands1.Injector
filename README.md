@@ -71,8 +71,8 @@ Displaying the supported versions of the game to this day.
    
 1. Open the included `asiinjector.sln` with Visual Studio 2022. 
 2. Make sure Visual Studio 2022 compiles for `x86` with `Release`.
-![Right-Buildsettings](https://imgur.com/8WKkFmV)
-https://imgur.com/a/g6F1LGZ
+![Right-Buildsettings](https://imgur.com/a/g6F1LGZ)
+
 2. Once the project is fully loaded, rightclick the Project.           
 ![Project-Rightclick](https://imgur.com/ajiV7sJ)  
 https://imgur.com/a/5T981u6  
