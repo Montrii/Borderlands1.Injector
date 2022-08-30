@@ -79,7 +79,7 @@ Displaying the supported versions of the game to this day.
 3. Click on `Build` and let the project build itself. 
 ![Screenshot_5](https://user-images.githubusercontent.com/69902394/187504917-2e9d0151-1646-4d05-95d6-e95ae270e2e4.png)
 
-4. Once finished, you can receive your compiled file from `[ProjectFilder]\Release\`.
+4. Once finished, you can receive your compiled file from `[ProjectFolder]\Release\`.
 
 If you wish to view the compiling process for the Enhanced version, please view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced).
 
