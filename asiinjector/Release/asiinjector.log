@@ -1,18 +1,17 @@
-﻿  pch.cpp
-  vorbisenc.cpp
+﻿  vorbisenc.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(2603,27): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
           with
           [
               _Elem=char
           ]
-D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(54): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(197): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(54): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(197): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
@@ -21,8 +20,8 @@ D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cp
           ]
      Creating library D:\Development\Visual Studio\2022\Borderlands1.Injector\Release\vorbisenc.lib and object D:\Development\Visual Studio\2022\Borderlands1.Injector\Release\vorbisenc.exp
   Generating code
-  487 of 495 functions (98.4%) were compiled, the rest were copied from previous compilation.
+  20 of 513 functions ( 3.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   asiinjector.vcxproj -> D:\Development\Visual Studio\2022\Borderlands1.Injector\Release\vorbisenc.dll

@@ -1,4 +1,4 @@
-# A Borderlands 1 Loader
+# A Borderlands 1 Loader (Enhanced)
 
 
 [![Github All Releases](https://img.shields.io/github/downloads/Montrii/Borderlands1.Injector/total.svg)]()
@@ -11,7 +11,7 @@ This `loader` allows you to bring any form of **.dll** files into the original B
 The goal of this project is to prevent using an usual .dll injector.  
 Using this form of a loader allows a more user-friendly implementation of modifications to the game.
 
-As Borderlands 1 is a *x86* Application, **please** remember all modifications, including this one, need to be *x86* compiled.
+As Borderlands 1 Enhanced is a *x64* Application, **please** remember all modifications, including this one, need to be *x64* compiled.
 
 Contents
 ========
@@ -26,11 +26,11 @@ Contents
 ---
 
 
-In order to install this `loader`, you will **require** a digital copy of Borderlands 1.   
+In order to install this `loader`, you will **require** a digital copy of Borderlands 1 Enhanced.   
 ([Versions](#versions) for more Information).
 
 As we won't use a conventional .dll injector, we'll need to replace files within the original Game.  
-After research, i have decided to replace the original `vorbisenc.dll` file with a modified version of it.  
+After research, i have decided to replace the original `d3d9.dll` file with a modified version of it.  
 
 
 > **Warning**  
@@ -39,15 +39,15 @@ After research, i have decided to replace the original `vorbisenc.dll` file with
 Now, follow these steps in order to install this `loader` successfully.   
 
 ```bash
-1. Get a compiled version of vorbisenc.dll from this repository.
+1. Get a compiled version of d3d9.dll from this repository.
 2. Navigate to your Borderlands 1 Directory.
-3. Open the "Binaries" folder, where the actual Borderlands.exe lies.
-4. Replace the original vorbisenc.dll with your compiled one.
+3. Open the "Binaries" folder, where the actual BorderlandsGOTY.exe lies.
+4. Replace the original d3d9.dll with your compiled one.
 5. Restart your game.
 ```   
 
 The game now has a `loader` brought in.   
-By default, if there **is not** any `\\scripts` directory within `\\Binaries`, it will auto-create one.
+By default, if there **is not** any `\\scripts` directory within `\\Binaries\\x64`, it will auto-create one.
 
 
 ### Versions
@@ -57,8 +57,8 @@ Displaying the supported versions of the game to this day.
 
 | Name                           | Supported? |
 |--------------------------------|------------|
-| Borderlands 1 Steam (Now GOTY) | Yes        |
-| Borderlands 1 Enhanced Steam   | Yes, view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced)  |
+| Borderlands 1 Steam (Now GOTY) | Yes, view [Main Branch](https://github.com/Montrii/Borderlands1.Injector/tree/main)       |
+| Borderlands 1 Enhanced Steam   | Yes        |
 
 
 ### Compiling yourself
@@ -70,7 +70,7 @@ Displaying the supported versions of the game to this day.
 * .NET Framework 4.8
    
 1. Open the included `asiinjector.sln` with Visual Studio 2022. 
-2. Make sure Visual Studio 2022 compiles for `x86` with `Release`.
+2. Make sure Visual Studio 2022 compiles for `x64` with `Release`.
 ![Screenshot_6](https://user-images.githubusercontent.com/69902394/187504915-8391f008-643b-40ca-a436-7e89921fe2dc.png)
 
 2. Once the project is fully loaded, rightclick the Project.           
@@ -79,7 +79,7 @@ Displaying the supported versions of the game to this day.
 3. Click on `Build` and let the project build itself. 
 ![Screenshot_5](https://user-images.githubusercontent.com/69902394/187504917-2e9d0151-1646-4d05-95d6-e95ae270e2e4.png)
 
-4. Once finished, you can receive your compiled file from `[ProjectFilder]\Release\`.
+4. Once finished, you can receive your compiled file from `[ProjectFolder]\x64\Release\`.
 
 If you wish to view the compiling process for the Enhanced version, please view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced).
 

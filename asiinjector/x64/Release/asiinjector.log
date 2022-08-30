@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  vorbisenc.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(2603,27): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(139): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Development\Visual Studio\2022\Borderlands1.Injector\asiinjector\vorbisenc.cpp(139): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+     Creating library D:\Development\Visual Studio\2022\Borderlands1.Injector\x64\Release\d3d9.lib and object D:\Development\Visual Studio\2022\Borderlands1.Injector\x64\Release\d3d9.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 513 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  asiinjector.vcxproj -> D:\Development\Visual Studio\2022\Borderlands1.Injector\x64\Release\d3d9.dll
