@@ -61,3 +61,29 @@ Displaying the supported versions of the game to this day.
 | Borderlands 1 Enhanced Steam   | Yes, view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced)  |
 
 
+### Compiling yourself
+---
+
+#### Requirements/Recommendations
+
+* Visual Studio 2022 with C/C++ Support
+* .NET Framework 4.8
+   
+1. Open the included `asiinjector.sln` with Visual Studio 2022. 
+2. Make sure Visual Studio 2022 compiles for `x86` with `Release`.
+![Right-Buildsettings](https://imgur.com/8WKkFmV)
+https://imgur.com/a/g6F1LGZ
+2. Once the project is fully loaded, rightclick the Project.           
+![Project-Rightclick](https://imgur.com/ajiV7sJ)  
+https://imgur.com/a/5T981u6  
+3. Click on `Build` and let the project build itself. 
+![Finished-Build](https://imgur.com/EGjM5Tl)
+https://imgur.com/a/ETpET6E
+4. Once finished, you can receive your compiled file from `[ProjectFilder]\Release\`.
+
+If you wish to view the compiling process for the Enhanced version, please view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced).
+
+
+
+
+
