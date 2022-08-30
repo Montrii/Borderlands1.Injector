@@ -58,6 +58,6 @@ Displaying the supported versions of the game to this day.
 | Name                           | Supported? |
 |--------------------------------|------------|
 | Borderlands 1 Steam (Now GOTY) | Yes        |
-| Borderlands 1 Enhanced Steam   | Yes, view [![Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced)]  |
+| Borderlands 1 Enhanced Steam   | Yes, view [Enhanced Branch](/Montrii/Borderlands1.Injector/tree/enhanced)  |
 
 
