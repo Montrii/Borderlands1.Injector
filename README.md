@@ -19,7 +19,7 @@ Contents
 * [Installation](#installation)
 * [Versions](#versions)
 * [Compiling yourself](#compiling)
-* [Future Plans](#future)
+* [Credits](#credits)
 
 
 ### Installation
@@ -82,6 +82,15 @@ Displaying the supported versions of the game to this day.
 4. Once finished, you can receive your compiled file from `[ProjectFilder]\Release\`.
 
 If you wish to view the compiling process for the Enhanced version, please view [Enhanced Branch](https://github.com/Montrii/Borderlands1.Injector/tree/enhanced).
+
+
+### Credits
+---
+
+Credits go to me, the creator of the project and idea: Montri.   
+Credits also go to any future collaborator.
+
+Licensed under MIT License.
 
 
 
